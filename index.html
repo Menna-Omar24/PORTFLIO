@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Eng Menna Omar</title>
+    <!-- font awsem -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css files -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mediaQ.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- ============== LOADING PAGE ============== -->
+    <div id="bgLoading">
+        <div class="loading-container">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+    </div>
+    <!-- ============== ARROW TO TOP ============== -->
+    <a href="#home" id="arrowHome">
+        <i class="fa-solid fa-circle-up"></i>
+    </a>
+    <!-- ==============  NAVBAR  ============== -->
+
+    <nav id="mainNav">
+        <div class="container">
+            <a href="./index.html">
+                <img src="./img/logo1.png" alt="website_logo" class="logo" />
+            </a>
+            <div id="menu">
+                <a class="active" onclick="resetBtns(this.id)" id="link1">Home</a>
+                <a class="" onclick="resetBtns(this.id)" id="link2">About</a>
+                <a class="" onclick="resetBtns(this.id)" id="link3">Services</a>
+                <a href="#experience" onclick="resetBtns(this.id)" id="link5">Experience</a>
+                <a class="" href="#portflio" onclick="resetBtns(this.id)" id="link4">Portfolio</a>
+            </div>
+
+            <a href="#contact" class="contact" onclick="resetBtns(this.id)" id="cntct">Contact</a>
+
+            <!-- mobile icon -->
+            <div id="menuIcon">
+                <div class="up"></div>
+                <div class="middle"></div>
+                <div class="bottom"></div>
+            </div>
+        </div>
+    </nav>
+    <section id="navPhone">
+        <div id="menu">
+            <a onclick="phoneLinks(this.id)" id="link1Phone">Home</a>
+            <a onclick="phoneLinks(this.id)" id="link2Phone">About</a>
+            <a onclick="phoneLinks(this.id)" id="link3Phone">Services</a>
+            <a href="#experience" onclick="phoneLinks(this.id)" id="link5Phone">Experience</a>
+            <a href="#portflio" onclick="phoneLinks(this.id)" id="link4Phone">Portfolio</a>
+        </div>
+        <div class="icons">
+            <div class="row">
+                <a href="https://wa.me/201070857712" target="blank"> <i class="fa-brands fa-whatsapp-square"></i> </a>
+                <a href="" target="_blank"> <i class="fa-brands fa-github-square"></i> </a>
+                <a href="https://www.facebook.com/profile.php?id=100091460857736" target="blank"> <i
+                        class="fa-brands fa-facebook-square"></i> </a>
+            </div>
+            <div class="row">
+                <a> <i class="fa-brands fa-linkedin"></i> </a>
+                <a href="https://www.behance.net/engmnnamar" target="blank"> <i class="fa-brands fa-behance-square"></i>
+                </a>
+                <a> <i class="fa-solid fa-square-envelope"></i> </a>
+            </div>
+        </div>
+    </section>
+    <!-- ==============  HOME  ============== -->
+    <section id="home">
+        <!-- stars -->
+        <div id="orangeStar" class="str1"></div>
+        <div id="orangeStar" class="str2"></div>
+        <div id="purpleStar" class="str3"></div>
+        <div id="purpleStar" class="str4"></div>
+        <!-- wave effect -->
+        <div class="ocean">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+        <div class="container">
+            <div class="left">
+                <h1 data-aos="fade-right">Hi, I'm Menna Omar</h1>
+                <h2 data-aos="fade-right">
+                    I'm a
+                    <span class="typed-text"></span>
+                    <span class="cursor">&nbsp;</span>
+                </h2>
+
+                <p data-aos="fade-right">
+                    High-level experience in Flutter development, <br /> UI/UX design knowledge and problem-solving
+                </p>
+                <a href="https://drive.google.com/file/d/1lm1Lo9qgu09GzHiINIgK8macnR4vwfZZ/view?usp=drive_link"
+                    class="cv" data-aos="fade-right" target="_blank">
+                    Download CV
+                </a>
+            </div>
+
+            <div class="right">
+                <img src="./img/me.png" class="me" data-aos="fade-up" />
+
+                <!-- icons -->
+                <img src="./img/web-design.png" class="web" data-aos="fade-right" />
+                <img src="./img/pen-tool.png" class="vector" data-aos="fade-right" />
+                <img src="./img/brush-pen.png" class="design" data-aos="fade-left" />
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============  ABOUT  ============== -->
+    <section id="about">
+        <!-- stars -->
+        <div id="orangeStar" class="str1"></div>
+        <div id="purpleStar" class="str2"></div>
+        <div id="purpleStar" class="str3"></div>
+        <div class="container">
+            <!-- top -->
+            <div class="top">
+                <div class="left" data-aos="fade-right">
+                    <h1>About me</h1>
+                    <div class="circle">
+                        <img src="./img/arLogo.jpg" alt="logo" />
+                    </div>
+                </div>
+                <div class="right" data-aos="fade-left">
+                    <!-- skl1 -->
+                    <div class="skl">
+                        <div class="info">
+                            <h3>Flutter Developer</h3>
+                            <h3>90%</h3>
+                        </div>
+                        <div class="bar">
+                            <div class="barEvo" id="evo1"></div>
+                        </div>
+                    </div>
+                    <!-- skl2 -->
+                    <div class="skl">
+                        <div class="info">
+                            <h3>Ui / UX</h3>
+                            <h3>80%</h3>
+                        </div>
+                        <div class="bar">
+                            <div class="barEvo" id="evo2"></div>
+                        </div>
+                    </div>
+                    <!-- skl3 -->
+                    <div class="skl">
+                        <div class="info">
+                            <h3>Graphic design</h3>
+                            <h3>75%</h3>
+                        </div>
+                        <div class="bar">
+                            <div class="barEvo" id="evo3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- bottom -->
+            <div class="bottom" data-aos="fade-up">
+                <div class="box box1">
+                    <h1>05</h1>
+                    <h2>Years<br />experience</h2>
+                </div>
+                <div class="box box2">
+                    <h1>220+</h1>
+                    <h2>Clients</h2>
+                </div>
+                <div class="box box3">
+                    <h1>135+</h1>
+                    <h2>Projects</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============  SERVICES  ============== -->
+    <section id="services">
+        <!-- stars -->
+        <div id="orangeStar" class="str1"></div>
+        <div id="orangeStar" class="str2"></div>
+        <div id="purpleStar" class="str4"></div>
+        <div id="purpleStar" class="str5"></div>
+        <!--  -->
+        <div class="container">
+            <h1 class="title">Services</h1>
+
+            <div class="servs">
+                <!-- web -->
+                <div class="ser">
+                    <div class="main">
+                        <!-- ball image -->
+                        <img id="ball1" src="./img/purpleBall.png" alt="3dBall" data-aos="fade-left" />
+                        <!-- laptop image -->
+                        <div class="bg" data-aos="fade-up">
+                            <img class="lap" src="./img/webLap.png" alt="laptop" />
+                        </div>
+                        <!-- label -->
+                        <div class="label" data-aos="fade-right">
+                            <h1>Flutter Developer</h1>
+                            <p>
+                                I can develop high-quality Flutter mobile app with maximum efficiency using the latest
+                                technologies</p>
+                            <div class="btns">
+                                <a href="#contact">Contact</a>
+                                <a href="#portflio">See projects</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ui / ux -->
+                <div class="ser">
+                    <div class="main">
+                        <!-- ball image -->
+                        <img id="ball2" src="./img/orangeBall.png" alt="3dBall" data-aos="fade-right" />
+                        <!-- laptop image -->
+                        <div class="bg" data-aos="fade-up">
+                            <img class="lap" src="./img/uiLap.png" alt="laptop" />
+                        </div>
+                        <!-- label -->
+                        <div class="label" id="label2" data-aos="fade-left">
+                            <h1>UI / UX</h1>
+                            <p>I will design an attractive user interface for your application or website
+                            </p>
+                            <div class="btns">
+                                <a href="#contact">Contact</a>
+                                <a href="#portflio">See projects</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- design -->
+                <div class="ser">
+                    <div class="main">
+                        <!-- ball image -->
+                        <img id="ball3" src="./img/purpleBall.png" alt="3dBall" data-aos="fade-left" />
+                        <!-- laptop image -->
+                        <div class="bg" data-aos="fade-up">
+                            <img class="lap" src="./img/designLap.png" alt="laptop" />
+                        </div>
+                        <!-- label -->
+                        <div class="label" id="label3" data-aos="fade-right">
+                            <h1>Graphic design</h1>
+                            <p>
+                                I have a lot of experience in the field of graphic design ( social media - logos -
+                                vector art )
+                            </p>
+                            <div class="btns">
+                                <a href="#contact">Contact</a>
+                                <a href="#portflio">See projects</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Experience Section -->
+    <section class="experience" id="experience">
+        <div class="heading">
+            <h2>My <span>Experience</span></h2>
+            <p class="sub-heading">Education & Work Journey</p>
+            <img src="img/dots-bg-light.svg" alt="decoration" />
+        </div>
+
+        <div class="experience-content">
+            <!-- Education -->
+            <div class="education experience-box">
+                <h3 class="box-title">Education</h3>
+
+                <div class="experience-box-details" data-aos="fade-right">
+                    <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+                    <span>Sep 2021 – Jun 2025</span>
+                    <h2>Bachelor’s Degree – Information Systems</h2>
+                    <p>Obour Academy | Graduated with Excellent (94%) – Project Leader</p>
+                </div>
+
+                <div class="experience-box-details" data-aos="fade-right">
+                    <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+                    <span>Jul 2024 – Dec 2024</span>
+                    <h2>Route Academy</h2>
+                    <p>Mobile App Development Training</p>
+                </div>
+
+                <div class="experience-box-details" data-aos="fade-right">
+                    <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+                    <span>Jul 2025 – Present</span>
+                    <h2>NTI (National Telecommunication Institute)</h2>
+                    <p>Advanced Training in Mobile App Development</p>
+                </div>
+
+                <div class="experience-box-details" data-aos="fade-right">
+                    <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+                    <span>2023 – 2025</span>
+                    <h2>IEEE Student Activities</h2>
+                    <p>Best Member → Core Team → Currently Co-Leader</p>
+                </div>
+
+                <!-- Commercial Syndicate -->
+                <div class="experience-box-details" data-aos="fade-right">
+                    <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+                    <span>2024</span>
+                    <h2>Commercial Syndicate</h2>
+                    <p>Graduated from training program in IT & Business Systems</p>
+                </div>
+
+                <!-- ATIC Training Center -->
+                <div class="experience-box-details" data-aos="fade-right">
+                    <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+                    <span>During University</span>
+                    <h2>ATEC Training Center</h2>
+                    <p>Completed courses in Oracle, English, Mobile Application Development, and Power BI</p>
+                </div>
+
+                <span class="line"></span>
+            </div>
+
+            <!-- Work -->
+            <div class="work experience-box">
+                <h3 class="box-title">Work</h3>
+
+                <div class="experience-box-details" data-aos="fade-left">
+                    <div class="icon"><i class="fas fa-briefcase"></i></div>
+                    <span>2023 – 2024</span>
+                    <h2>Scorpion</h2>
+                    <p>Front-End Developer</p>
+                </div>
+
+                <div class="experience-box-details" data-aos="fade-left">
+                    <div class="icon"><i class="fas fa-briefcase"></i></div>
+                    <span>2024</span>
+                    <h2>camp petroleum services</h2>
+                    <p>Mobile App Developer</p>
+                </div>
+
+                <div class="experience-box-details" data-aos="fade-left">
+                    <div class="icon"><i class="fas fa-briefcase"></i></div>
+                    <span>2024</span>
+                    <h2>Payer EG</h2>
+                    <p>Mobile & Front-End Developer</p>
+                </div>
+
+                <div class="experience-box-details" data-aos="fade-left">
+                    <div class="icon"><i class="fas fa-briefcase"></i></div>
+                    <span>May 2025 – Present</span>
+                    <h2>Blossom</h2>
+                    <p>Freelance Mobile App Developer</p>
+                </div>
+
+                <div class="experience-box-details" data-aos="fade-left">
+                    <div class="icon"><i class="fas fa-briefcase"></i></div>
+                    <span>Jul 2025 – Present</span>
+                    <h2>Saudi Client (Salla & WordPress E-Commerce)</h2>
+                    <p>Freelance Web Developer</p>
+                </div>
+
+                <span class="line"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Experience Section -->
+
+    <!-- ==============  PORTFLIO  ============== -->
+    <section id="portflio">
+        <div id="orangeStar" class="str1"></div>
+        <div id="orangeStar" class="str2"></div>
+        <div id="purpleStar" class="str3"></div>
+        <div id="purpleStar" class="str4"></div>
+        <div class="container">
+            <div class="top">
+                <div class="left">
+                    <h1>Portfolio</h1>
+                    <p>
+                        Here you can see some of my completed
+                        <br />work in various fields ... enjoy
+                    </p>
+                </div>
+                <div class="right">
+                    <a id="all" class="active">All</a>
+                    <a id="web">Flutter Developer</a>
+                    <a id="graphic">Graphic Design</a>
+                    <a id="vector">UI UX</a>
+                    <a id="activitiesBtn">Activities</a>
+
+                </div>
+            </div>
+            <div id="allWork">
+
+                <div id="DesSec">
+                    <div class="row" id="DesSec">
+
+                        <!-- <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/graphicDesign/1.png" alt="the work image" class="image" />
+                            <div class="category">Graphic design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/graphicDesign/2.png" alt="the work image" class="image" />
+                            <div class="category">Graphic design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/graphicDesign/3.png" alt="the work image" class="image" />
+                            <div class="category">Graphic design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/graphicDesign/4.png" alt="the work image" class="image" />
+                            <div class="category">Graphic design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/graphicDesign/5.png" alt="the work image" class="image" />
+                            <div class="category">Graphic design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/graphicDesign/6.png" alt="the work image" class="image" />
+                            <div class="category">Graphic design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/graphicDesign/7.png" alt="the work image" class="image" />
+                            <div class="category">Graphic design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/graphicDesign/8.png" alt="the work image" class="image" />
+                            <div class="category">Graphic design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/graphicDesign/9.png" alt="the work image" class="image" />
+                            <div class="category">Graphic design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/graphicDesign/10.png" alt="the work image" class="image" />
+                            <div class="category">Graphic design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                        </div> -->
+
+
+                    </div>
+                </div>
+
+                <div id="WebSec">
+                    <div class="row">
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/calculator.png" alt="the work image" class="image" />
+                            <div class="category">Flutter Developer</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://github.com/Menna-Omar24/flutter_Project_Route/tree/main/calculator_design"
+                                target="blank"> <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/facebook.png" alt="the work image" class="image" />
+                            <div class="category">Flutter Developer</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://github.com/Menna-Omar24/flutter_Project_Route/tree/main/login_facebook"
+                                target="blank"> <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/whats_app.png" alt="the work image" class="image" />
+                            <div class="category">Flutter Developer</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://github.com/Menna-Omar24/flutter_Project_Route/tree/main/whats_app"
+                                target="blank"> <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/xo.png" alt="the work image" class="image" />
+                            <div class="category">Flutter Developer</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://github.com/Menna-Omar24/flutter_Project_Route/tree/main/tic_tac_toe"
+                                target="blank"> <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/space.png" alt="the work image" class="image" />
+                            <div class="category">Flutter Developer</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://github.com/Menna-Omar24/flutter_Project_Route/tree/main/body_art"
+                                target="blank"> <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/contact.png" alt="the work image" class="image" />
+                            <div class="category">Flutter Developer</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://github.com/Menna-Omar24/flutter_Project_Route/tree/main/contacts_app"
+                                target="blank"> <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/Movies.png" alt="the work image" class="image" />
+                            <div class="category">Flutter Developer</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://github.com/Menna-Omar24/flutter_Project_Route/tree/main/scholar_chat"
+                                target="blank"> <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/evently.png" alt="the work image" class="image" />
+                            <div class="category">Flutter Developer</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://github.com/Menna-Omar24/flutter_Project_Route/tree/main/pointer_counter"
+                                target="blank"> <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/Islami.png" alt="the work image" class="image" />
+                            <div class="category">Flutter Developer</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://github.com/Menna-Omar24/flutter_Project_Route/tree/main/islamic"
+                                target="blank"> <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/hotal.png" alt="the work image" class="image" />
+                            <div class="category">Flutter Developer</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://github.com/Menna-Omar24/flutter_Project_Route/tree/main/route_courses"
+                                target="blank"> <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/chess1.png" alt="the work image" class="image" />
+                            <div class="category">Flutter Developer</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://github.com/Menna-Omar24/smart_chess" target="blank"> <img
+                                    src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/chess2.png" alt="the work image" class="image" />
+                            <div class="category">Flutter Developer</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://github.com/Menna-Omar24/smart_chess" target="blank"> <img
+                                    src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/blossom.png" alt="the work image" class="image" />
+                            <div class="category">Flutter Developer</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://github.com/Menna-Omar24/Blossom" target="blank"> <img src="./img/link.png"
+                                    class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/ECOMMERCE_nti.png" alt="the work image" class="image" />
+                            <div class="category">Web design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://github.com/Menna-Omar24/flutter_Project_NTI/tree/main/ecommerce_app"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/ecommerce.png" alt="the work image" class="image" />
+                            <div class="category">Flutter Developer</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://github.com/Menna-Omar24/flutter_Project_NTI/tree/main/ecommerce_app"
+                                target="blank"> <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/TODO.png" alt="the work image" class="image" />
+                            <div class="category">Web design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://github.com/Menna-Omar24/flutter_Project_NTI/tree/main/to_do"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/newsNTI.png" alt="the work image" class="image" />
+                            <div class="category">Web design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://github.com/Menna-Omar24/flutter_Project_NTI/tree/main/News"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/news.png" alt="the work image" class="image" />
+                            <div class="category">Flutter Developer</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://github.com/Menna-Omar24/flutter_Project_Route/tree/main/news"
+                                target="blank"> <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/4.png" alt="the work image" class="image" />
+                            <div class="category">Web design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/6.png" alt="the work image" class="image" />
+                            <div class="category">Web design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/7.png" alt="the work image" class="image" />
+                            <div class="category">Web design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/8.png" alt="the work image" class="image" />
+                            <div class="category">Web design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/9.png" alt="the work image" class="image" />
+                            <div class="category">Web design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/webDesign/10.png" alt="the work image" class="image" />
+                            <div class="category">Web design</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="VecSec">
+                    <div class="row">
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/uiux/1.jpg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://docs.google.com/presentation/d/1de5oHtinO0FwcQBRoDVqIvoK726nQkCQ/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a>
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/uiux/2.jpg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://docs.google.com/presentation/d/152N_Fwi5HRUbqjibLNk_7OdtDGAJ2Zbm/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a>
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/uiux/3.jpg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div id="ActSec">
+                    <div class="row">
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/1746105693846.jpeg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://lnkd.in/p/dcYx36Ds" target="_blank"> <img src="./img/link.png" class="link"
+                                    alt="link"></a>
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/hackathon2.jpg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/152N_Fwi5HRUbqjibLNk_7OdtDGAJ2Zbm/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/IMG-20241221-WA0042.jpg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/IMG-20241221-WA0113.jpg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+                        </div>
+
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/IMG-20250501-WA0027.jpg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/IMG-20250604-WA0011.jpg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/IMG-20250619-WA0005.jpg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/IMG-20250918-WA0003.jpg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/IMG-20250918-WA0004.jpg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/IMG-20250918-WA0010.jpg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+                        </div>
+
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/photo_3_2025-04-30_13-12-27.jpg" alt="the work image"
+                                class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://www.linkedin.com/posts/ieee-obour-institute_ieee-ieeeabrocs-codeabrcraft-activity-7324069148190212096-tgxc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEex6VoBQ30ooYhvzktw9wRxNV7E-PtzMic"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a>
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/photo_4_2025-04-30_13-12-27.jpg" alt="the work image"
+                                class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://www.linkedin.com/posts/ieee-obour-institute_ieee-ieeeabrocs-codeabrcraft-activity-7324069148190212096-tgxc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEex6VoBQ30ooYhvzktw9wRxNV7E-PtzMic"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a>
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/photo_11_2025-04-30_13-12-27.jpg" alt="the work image"
+                                class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <<a href="https://www.linkedin.com/posts/ieee-obour-institute_ieee-ieeeabrocs-codeabrcraft-activity-7324069148190212096-tgxc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEex6VoBQ30ooYhvzktw9wRxNV7E-PtzMic"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a>
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/photo_12_2025-04-30_13-12-27.jpg" alt="the work image"
+                                class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://www.linkedin.com/posts/ieee-obour-institute_ieee-ieeeabrocs-codeabrcraft-activity-7324069148190212096-tgxc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEex6VoBQ30ooYhvzktw9wRxNV7E-PtzMic"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a>
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/photo_75_2025-03-23_17-11-33.jpg" alt="the work image"
+                                class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/photo_78_2025-03-23_17-11-33.jpg" alt="the work image"
+                                class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/photo_87_2025-03-23_17-11-33.jpg" alt="the work image"
+                                class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/photo_88_2025-03-23_17-13-58.jpg" alt="the work image"
+                                class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/photo_2025-05-07_21-54-23.jpg" alt="the work image"
+                                class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/photo_2025-05-07_21-57-36.jpg" alt="the work image"
+                                class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/photo_2025-05-07_22-05-39.jpg" alt="the work image"
+                                class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/photo_2025-05-07_22-05-50.jpg" alt="the work image"
+                                class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/photo_2025-05-09_02-36-21.jpg" alt="the work image"
+                                class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/photo_2025-05-09_15-02-39.jpg" alt="the work image"
+                                class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/photo_2025-05-09_15-11-07.jpg" alt="the work image"
+                                class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/photo_2025-05-09_15-11-33.jpg" alt="the work image"
+                                class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/photo_2025-05-10_03-44-15.jpg" alt="the work image"
+                                class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://docs.google.com/presentation/d/1MNS3cE3QMX-rRZTT7YzwjH7bYOWChubC/edit?usp=drive_link&ouid=116303280767238889700&rtpof=true&sd=true"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a> -->
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/1743299601144.jpeg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://lnkd.in/p/ge7m4Fsb" target="_blank"> <img src="./img/link.png" class="link"
+                                    alt="link"></a>
+
+
+                        </div>
+
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/1742474066299.jpeg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://lnkd.in/p/gjC8grVc" target="_blank"> <img src="./img/link.png" class="link"
+                                    alt="link"></a>
+
+
+                        </div>
+
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/Screenshot 2025-09-19 102611.png" alt="the work image"
+                                class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://lnkd.in/p/gMWNyEFu" target="_blank"> <img src="./img/link.png" class="link"
+                                    alt="link"></a>
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/ملتقى العباقرة.jpg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://drive.google.com/drive/folders/1QXlBfMa5FtSvFYkgfwUWuEqudWsDRqoc?dmr=1&ec=wgc-drive-hero-goto" target="_blank"> <img src="./img/link.png" class="link"
+                                    alt="link"></a> -->
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/IMG-20250919-WA0015.jpg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://drive.google.com/drive/folders/1QXlBfMa5FtSvFYkgfwUWuEqudWsDRqoc?dmr=1&ec=wgc-drive-hero-goto" target="_blank"> <img src="./img/link.png" class="link"
+                                    alt="link"></a> -->
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/IMG-20250919-WA0017.jpg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://drive.google.com/drive/folders/1QXlBfMa5FtSvFYkgfwUWuEqudWsDRqoc?dmr=1&ec=wgc-drive-hero-goto" target="_blank"> <img src="./img/link.png" class="link"
+                                    alt="link"></a> -->
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/IMG-20250919-WA0026.jpg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://drive.google.com/drive/folders/1QXlBfMa5FtSvFYkgfwUWuEqudWsDRqoc?dmr=1&ec=wgc-drive-hero-goto" target="_blank"> <img src="./img/link.png" class="link"
+                                    alt="link"></a> -->
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img\Activities\IMG-20250604-WA0004.jpg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://drive.google.com/drive/folders/1QXlBfMa5FtSvFYkgfwUWuEqudWsDRqoc?dmr=1&ec=wgc-drive-hero-goto" target="_blank"> <img src="./img/link.png" class="link"
+                                    alt="link"></a> -->
+
+
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/Activities/IMG-20250604-WA0013.jpg" alt="the work image" class="image" />
+                            <div class="category">UI UX</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <!-- <a href="https://drive.google.com/drive/folders/1QXlBfMa5FtSvFYkgfwUWuEqudWsDRqoc?dmr=1&ec=wgc-drive-hero-goto" target="_blank"> <img src="./img/link.png" class="link"
+                                    alt="link"></a> -->
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+    </section>
+    <!-- ==============  TESTIMONIALS  ============== -->
+    <section id="testi">
+        <div id="orangeStar" class="str1"></div>
+        <div id="purpleStar" class="str2"></div>
+        <div id="purpleStar" class="str3"></div>
+        <div id="orangeStar" class="str4"></div>
+
+        <div class="top">
+            <h1>Happy Clients</h1>
+            <p>
+                Reviews and ratings from some<br>of our special customers
+            </p>
+        </div>
+
+        <!-- Swiper -->
+        <div class="contSwiper">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <!-- 1 -->
+                    <div class="swiper-slide">
+                        <div class="up">
+                            <div class="content">
+                                إنجاز في العمل علي أكمل وجه و في الوقت المحدد
+                            </div>
+                        </div>
+                        <div class="down">
+                            <img src="./img/person3.png" alt="Abdulhai Gamal" />
+                            <h3>Abdulhai Gamal</h3>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="swiper-slide">
+                        <div class="up">
+                            <div class="content">
+                                كفاءة عالية في الشغل، بالتوفيق دائمًا 👏
+                            </div>
+                        </div>
+                        <div class="down">
+                            <img src="./img/person4.png" alt="Ahmed Hisham" />
+                            <h3>Ahmed Hisham</h3>
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="swiper-slide">
+                        <div class="up">
+                            <div class="content">
+                                حقيقي من أحسن الناس اللي اشتغلت معاها ❤️
+                            </div>
+                        </div>
+                        <div class="down">
+                            <img src="./img/person2.png" alt="Sara Salah" />
+                            <h3>Sara Salah</h3>
+                        </div>
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="swiper-slide">
+                        <div class="up">
+                            <div class="content">
+                                إنسانة محترمة وشغلك منظم وتسليمك في المعاد.
+                                الناس لما شافوا التطبيق فرحوا وشكروا فيه 🙌
+                            </div>
+                        </div>
+                        <div class="down">
+                            <img src="./img/person5.png" alt="ENG. Abdelrhman Mohamed" />
+                            <h3>ENG. Abdelrhman Mohamed</h3>
+                        </div>
+                    </div>
+
+                    <!-- 5 -->
+                    <div class="swiper-slide">
+                        <div class="up">
+                            <div class="content">
+                                كان أول تعامل لينا ومش آخر تعامل بإذن الله.
+                                شغلك بروفيشنال وطلع بنفس الـ design والـ quality بالحرف 💯
+                            </div>
+                        </div>
+                        <div class="down">
+                            <img src="./img/person2.png" alt="Shorouk" />
+                            <h3>Shorouk</h3>
+                        </div>
+                    </div>
+
+                    <!-- 6 -->
+                    <div class="swiper-slide">
+                        <div class="up">
+                            <div class="content">
+                                عملتي الابلكيشن زي ما أنا عاوزة بالظبط.
+                                بجد تسلم إيدك يا أشطر programmer 😍
+                            </div>
+                        </div>
+                        <div class="down">
+                            <img src="./img/person2.png" alt="Fatma" />
+                            <h3>Fatma</h3>
+                        </div>
+                    </div>
+
+                    <!-- 7 -->
+                    <div class="swiper-slide">
+                        <div class="up">
+                            <div class="content">
+                                أكتر حد منضبط وشغلك عالي جدًا.
+                                لو هرشح حد للـ Mobile Development هتكوني إنتِ ✨
+                            </div>
+                        </div>
+                        <div class="down">
+                            <img src="./img/person3.png" alt="Omar Ali" />
+                            <h3>Omar Ali</h3>
+                        </div>
+                    </div>
+
+                    <!-- 8 -->
+                    <div class="swiper-slide">
+                        <div class="up">
+                            <div class="content">
+                                شغلك كله مميز ومختلف.
+                                دايمًا بتغطّي الـ gaps ومش مجرد شغل تقليدي 🤍
+                            </div>
+                        </div>
+                        <div class="down">
+                            <img src="./img/person2.png" alt="Mai Hassan" />
+                            <h3>Mai Hassan</h3>
+                        </div>
+                    </div>
+
+                    <!-- 9 -->
+                    <div class="swiper-slide">
+                        <div class="up">
+                            <div class="content">
+                                بجد بحب نجاحك وإصرارك، بتكملي أي حاجة للآخر وعلى أحسن وجه.
+                                مشروعنا كان فخم جدًا والدكاترة كانوا مبسوطين منك 🌸
+                            </div>
+                        </div>
+                        <div class="down">
+                            <img src="./img/person2.png" alt="Nourhan" />
+                            <h3>Nourhan</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- ==============  END TESTIMONIALS  ============== -->
+
+    <!-- ==============  CONTACT  ============== -->
+    <section id="contact">
+        <div id="orangeStar" class="str1"></div>
+        <div id="purpleStar" class="str2"></div>
+        <div id="purpleStar" class="str3"></div>
+        <div class="container">
+            <div class="top">
+                <h1>Contact</h1>
+                <p>Lets Say Hi!</p>
+            </div>
+            <div class="links">
+                <!-- row 1 -->
+                <div class="row">
+                    <!-- email -->
+                    <a href="https://mail.google.com/mail/u/0/#inbox" target="blank">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h3>MennaOmar@ieee.org</h3>
+                    </a>
+                    <!-- Github -->
+                    <a href="https://github.com/Menna-Omar24" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        <h3>Menna Omar</h3>
+                    </a>
+
+                    <!-- facebook -->
+                    <a href="https://www.facebook.com/profile.php?id=100091460857736" target="blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <h3>Mënna Ōmar</h3>
+                    </a>
+                </div>
+                <!-- row 2 -->
+                <div class="row">
+                    <!-- Behance -->
+                    <a href="https://www.behance.net/engmnnamar" target="blank">
+                        <i class="fa-brands fa-behance"></i>
+                        <h3>Eng Mënna Ōmar</h3>
+                    </a>
+                    <!-- phone -->
+                    <a href="https://wa.me/201070857712" target="blank">
+                        <i class="fa-solid fa-phone"></i>
+                        <h3>(+20) 107 0857 712</h3>
+                    </a>
+                </div>
+                <!-- row 3 -->
+                <div class="row">
+                    <!-- Linked in -->
+                    <a href="https://www.linkedin.com/in/mennaomar/" target="blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <h3>Menna Omar</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============  FOOTER  ============== -->
+    <footer>
+        <div class="top">
+            <div class="right">
+                <h1>DON'T BE SHY !</h1>
+                <p>
+                    Feel free to get in touch with me. <br>I am always open to discussing<br>new projects, creative
+                    ideas or<br>opportunities to be part of your visions.
+                </p>
+            </div>
+            <img src="./img/logo1.png" class="logo" />
+            <div class="left">
+                <h1>Who am i ?</h1>
+                <p>
+                    I'm a <strong>Flutter Developer & UI/UX Enthusiast</strong>, passionate<br>
+                    and dedicated to my work. I have acquired the skills<br>
+                    and knowledge necessary to design and develop<br>
+                    user-friendly, visually appealing, and scalable mobile apps<br>
+                    that make your project a success.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="bottom">2022.&copy; Menna Omar. Portflio</div>
+    </footer>
+    <!--  -->
+    <div class="active-img-pop">
+        <div class="div-img">
+            <img alt="img" src="imges/desi/th/th1.jpg">
+        </div>
+    </div>
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!-- =========  SCRIPTS  ========= -->
+    <script src="./main.js"></script>
+    <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            loop: true,
+
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+    <!-- aos script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
